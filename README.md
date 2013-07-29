@@ -1,6 +1,7 @@
 WebToolsPy
 ==========
 Author: Kaio Cesar
+Author: Fabio Piovam
 
 Ferramenta escrita em Python, que manipula comando do sistema, para facilitar 
 a inicialização do ambiente. Primeiramente será desenvolvida em Shell para Linux,
