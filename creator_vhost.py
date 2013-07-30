@@ -12,7 +12,7 @@ def lerVhost(file_=""):
 	vhosts = texts.split('##')
 
 	"""
-	  Leitura do arquivo, e obteção dos Vhosts
+	  Read file and get VHOSTS	
 	"""
 
 	new_vhost = []
@@ -23,6 +23,7 @@ def lerVhost(file_=""):
 	file_open.close()
 
 	"""
+	 get data to create new VHOST
 	  Obter os dados para o novo Vhost
 	"""
 
