@@ -51,10 +51,18 @@ class WebToolsPy(InterfaceWTP):
 		while RespSN.lower() == "n":			
 			ServerName = raw_input("Enter SERVER NAME: ")
 			RespSN = raw_input("You're sure, Server Name is '"+ ServerName +"'? [y/n]: ")
+
+		RespDR = "n"
+		while RespDR.lower() == "n":			
+			DocumentRoot = raw_input("Enter DOCUMENT ROOT: ")
+			RespDR = raw_input("You're sure, Document Root is '"+ DocumentRoot.upper() +"' ? [y/n]")
+	
+		RespLang = "n"	
+		Langs = ["PHP","PYTHON"]
+		while RespLang <> "y":
+			Language = raw_input("What's project programme language [0] PHP, [1]PYTHON: ")
+			RespLang = raw_input("You're sure, Language is '"+ Langs[int(Language)] +"'' ? [y/n]")
 		
-			
-		DocumentRoot = raw_input("Enter DOCUMENT ROOT: ")
-		Language = raw_input("What's project programme language [1] PHP, [2]PYTHON: ")
 
 	def defChoice(self):
 		if (self.response=='1'):
@@ -69,15 +77,3 @@ class WebToolsPy(InterfaceWTP):
 
 
 WTP = WebToolsPy()
-# WTP.startInterface()	
-
-#WTP.readVHost("tete")		
-
-#IWTP = InterfaceWTP()
-
-#IWTP.startInterface()
-
-"""
-	1 - menu escolher
-	2 - 
-"""
