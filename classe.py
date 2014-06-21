@@ -4,6 +4,11 @@ import os, commands
 
 class InterfaceWTP:
 
+"""
+    @author: Kaio Cesar <tecnico.kaio@gmail.com>
+    @todo Qual o intuito desse script.
+"""
+
 	headerStart = ["##################################",
 		       "#_________WebToolsPy_____________#",
 		       "#___ Creation tool environment___#",		      
