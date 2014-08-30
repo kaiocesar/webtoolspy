@@ -16,3 +16,4 @@ contando com os seguintes recursos:
 - recursos da versão 1.0
 - criação do projeto(zend, cake, laravel, Django)
 - rotina de back-up com cron para uma cloud
+- Deploy automatizado
